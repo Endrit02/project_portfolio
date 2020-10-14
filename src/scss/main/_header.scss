@@ -1,0 +1,46 @@
+.main_header {
+  position: fixed;
+  z-index: 11;
+}
+.headerWrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.header_logo img {
+  width: 141px;
+  height: 41px;
+  margin-top: 39px;
+}
+.nav_bar {
+  display: flex;
+  li {
+    margin-top: 46px;
+    margin-right: 39px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #101010;
+  }
+  a {
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+  }
+  a:hover {
+    padding-top: 3px;
+    text-decoration-line: underline;
+    text-decoration-color: #754ef9;
+    text-decoration-thickness: auto;
+  }
+  button {
+    width: 202px;
+    height: 47px;
+    margin-top: 28px;
+    background-color: #754ef9;
+    border: none;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
